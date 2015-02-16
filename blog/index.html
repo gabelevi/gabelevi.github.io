@@ -1,0 +1,26 @@
+---
+id: blog 
+title: Blog
+layout: blog 
+---
+
+{% include blog_pagination.html %}
+
+<div class="posts">
+  {% for post in paginator.posts %}
+    {% assign author = site.data.authors[post.author] %}
+    <article class="post">    
+      
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+        <p class="meta">{{ post.date | date: "%B %e, %Y" }} by {{ author.display_name }}</p>
+
+      <div class="entry">
+        {{ post.content | truncatewords:200}}
+      </div>
+      
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
+
+{% include blog_pagination.html %}
