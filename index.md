@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Flow: A static type checker for JavaScript
+title: Flow | A static type checker for JavaScript
 id: home
 hero: true
 ---

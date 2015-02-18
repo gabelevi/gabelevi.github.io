@@ -1,8 +1,9 @@
 glevi:
-  name: Gabe Levi
   display_name: Gabe Levi
-  email: gabe@fb.com
-  web: https://www.facebook.com/Gabe
   facebook: https://www.facebook.com/Gabe
-  twitter: evilgabe
-  github: gabelevi
+bhosmer:
+  display_name: Basil Hosmer
+  facebook: https://www.facebook.com/basil.hosmer
+jeffmo:
+  display_name: Jeff Morrison
+  facebook: https://www.facebook.com/lbljeffmo

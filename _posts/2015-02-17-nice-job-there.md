@@ -1,5 +1,0 @@
----
-author: glevi
----
-
-Hi there!
